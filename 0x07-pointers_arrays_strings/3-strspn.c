@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - search the number of bytes in the initial
+ *_strspn - search the number of bytes in the initial
  * segment of s which consist only of bytes from accept
  *@s:segment targeted
  *@accept:reference bytes container
@@ -15,7 +15,7 @@
 
 	while (*s)
 	{
-		for (i = 0; accept[i] i++)
+		for (i = 0; accept[i]; i++)
 		{
 			if (accept[i] == *s)
 			{
